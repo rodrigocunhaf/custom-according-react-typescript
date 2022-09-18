@@ -1,0 +1,44 @@
+{
+  "name": "custom-according-react-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "source": "./public/index.html",
+  "repository": "https://github.com/rodrigocunhaf/custom-according-react-typescript.git",
+  "author": "Rodrigo Cunha França <rodrigocunhaf@github.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "yarn eslint:verify && yarn dev:parcel",
+    "dev:parcel": "parcel --port 3000 --open",
+    "eslint:verify": "eslint .",
+    "eslint:fix": "eslint --fix"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "dependencies": {
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.7.0",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.8",
+    "parcel": "^2.7.0",
+    "prettier": "2.7.1",
+    "process": "^0.11.10"
+  }
+}
