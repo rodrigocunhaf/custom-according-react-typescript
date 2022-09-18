@@ -1,5 +1,8 @@
 {
   "preset": "ts-jest",
   "testEnvironment": "jsdom",
-  "collectCoverageFrom": ["src/components/**/*.tsx", "!**/node_modules/**"]
+  "collectCoverageFrom": ["src/components/**/*.tsx", "!**/node_modules/**"],
+  "moduleNameMapper": {
+    "\\.(png)$": "<rootDir>/src/mocks/imageMocks.ts"
+  }
 }

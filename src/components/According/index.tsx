@@ -8,7 +8,7 @@ import _ from 'lodash';
 
 const AccordingContainer = styled.div`
   max-width: 500px;
-  box-shadow: 0px 0px 1px 0px black;
+  box-shadow: 0px 0px 9px 0px black;
 `;
 
 export interface AccordingInterface {
