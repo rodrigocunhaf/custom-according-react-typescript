@@ -3,6 +3,6 @@
   "testEnvironment": "jsdom",
   "collectCoverageFrom": ["src/components/**/*.tsx", "!**/node_modules/**"],
   "moduleNameMapper": {
-    "\\.(png)$": "./src/mocks/imageMocks.ts"
+    "\\.(png)$": "src/mocks/imageMocks.ts"
   }
 }
