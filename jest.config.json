@@ -2,7 +2,7 @@
   "preset": "ts-jest",
   "testEnvironment": "jsdom",
   "collectCoverageFrom": ["src/components/**/*.tsx", "!**/node_modules/**"],
-  "moduleNameMapper": {
-    "\\.(png)$": "src/mocks/imageMocks.ts"
+  "transform": {
+    ".+\\.(png)$": "jest-transform-stub"
   }
 }
